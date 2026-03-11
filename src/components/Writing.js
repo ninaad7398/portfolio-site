@@ -5,13 +5,13 @@ import { ArrowRight, BookOpen } from "lucide-react";
 
 const articles = [
   {
-    title: "Designing AI Systems for Real Business Use",
+    title: "Designing AI Systems for Business",
     category: "Architecture",
     date: "Coming Soon",
     summary: "A practical guide to moving beyond prototypes and deploying robust LLM applications in enterprise environments.",
   },
   {
-    title: "Document Intelligence using OCR + LLMs",
+    title: "How LLMs Transform Document Processing",
     category: "Technical Guide",
     date: "Coming Soon",
     summary: "Exploring the hybrid approach of vision models and language pipelines for extracting structured data from messy documents.",
@@ -39,14 +39,14 @@ const Writing = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.5 }}
-          className="mb-16"
+          className="mb-16 text-center"
         >
-          <div className="flex items-center gap-4 mb-4">
+          <div className="flex items-center justify-center gap-4 mb-4">
             <BookOpen className="w-8 h-8 text-blue-400" />
-            <h2 className="text-3xl md:text-5xl font-bold text-white">Writing & Research</h2>
+            <h2 className="text-3xl md:text-5xl font-bold text-white">AI Insights</h2>
           </div>
-          <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></div>
-          <p className="text-gray-400 mt-6 max-w-2xl text-lg">
+          <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mx-auto"></div>
+          <p className="text-gray-400 mt-6 max-w-2xl mx-auto text-lg">
             Thoughts, technical guides, and lessons learned from building enterprise AI platforms.
           </p>
         </motion.div>

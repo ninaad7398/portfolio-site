@@ -1,5 +1,7 @@
 import Hero from "@/components/Hero";
 import AISystems from "@/components/AISystems";
+import AILab from "@/components/AILab";
+import AICapabilities from "@/components/AICapabilities";
 import CaseStudies from "@/components/CaseStudies";
 import Skills from "@/components/Skills";
 import Writing from "@/components/Writing";
@@ -11,10 +13,12 @@ export default function Home() {
     <main className="min-h-screen bg-[#050505]">
       <Hero />
       <AISystems />
+      <AILab />
+      <AICapabilities />
       <CaseStudies />
       <Skills />
-      <Writing />
       <Experience />
+      <Writing />
       <Contact />
     </main>
   );

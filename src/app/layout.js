@@ -7,8 +7,16 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Ninaad Patnaik | AI Consultant",
-  description: "Consultant at Infosys building AI-powered systems that combine LLMs, document intelligence, and modern web applications to solve enterprise problems.",
+  title: "Ninaad Patnaik | AI Consultant | Generative AI | LLM Applications",
+  description: "Ninaad Patnaik, Infosys, India, Saudi Arabia, AI Consultant specializing in LLM applications, document intelligence, enterprise AI dashboards, and intelligent product experiences.",
+  openGraph: {
+    title: "Ninaad Patnaik | AI Consultant | Generative AI | LLM Applications",
+    description: "Ninaad Patnaik, Infosys, India, Saudi Arabia, AI Consultant specializing in LLM applications, document intelligence, enterprise AI dashboards, and intelligent product experiences.",
+    url: "https://github.com/ninaad7398", // Fallback URL
+    siteName: "Ninaad Patnaik Portfolio",
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {

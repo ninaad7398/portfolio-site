@@ -72,9 +72,18 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="text-gray-400 text-lg md:text-xl leading-relaxed mb-10 max-w-2xl mx-auto"
+            className="text-gray-400 text-lg md:text-xl leading-relaxed mb-6 max-w-2xl mx-auto"
           >
-            Consultant at Infosys building AI-powered systems that combine LLMs, document intelligence, and modern web applications to solve enterprise problems.
+            Designing AI-powered enterprise systems combining LLMs, document intelligence, and modern web applications.
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.15 }}
+            className="text-blue-400/80 font-medium text-base md:text-lg mb-10 max-w-2xl mx-auto italic"
+          >
+            "Building AI systems that bridge business needs with real-world intelligence."
           </motion.p>
 
           <motion.div

@@ -45,13 +45,43 @@ const Experience = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.5 }}
-          className="mb-16"
+          className="mb-16 text-center max-w-3xl mx-auto"
         >
-          <div className="flex items-center gap-4 mb-4">
+          <div className="flex items-center justify-center gap-4 mb-4">
             <Briefcase className="w-8 h-8 text-blue-400" />
-            <h2 className="text-3xl md:text-5xl font-bold text-white">Experience</h2>
+            <h2 className="text-3xl md:text-5xl font-bold text-white">Consulting Experience</h2>
           </div>
-          <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></div>
+          <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mx-auto mb-10"></div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left bg-[#0a0a0a] border border-gray-800 p-8 rounded-2xl shadow-xl shadow-black/50">
+            <div>
+              <h3 className="text-lg font-bold text-white mb-4 uppercase tracking-wider text-sm">Global Reach</h3>
+              <p className="text-gray-400 text-sm leading-relaxed bg-[#050505] p-4 rounded-xl border border-gray-800/50">
+                Worked closely with enterprise clients across the <span className="text-white font-medium">United States</span>, <span className="text-white font-medium">India</span>, and the <span className="text-white font-medium">Middle East</span>.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-bold text-white mb-4 uppercase tracking-wider text-sm">Focus Areas</h3>
+              <ul className="text-gray-300 text-sm space-y-3">
+                <li className="flex items-center gap-3">
+                  <div className="w-1.5 h-1.5 rounded-full bg-blue-500 shadow-[0_0_8px_rgba(59,130,246,0.8)]"></div> 
+                  AI-powered enterprise dashboards
+                </li>
+                <li className="flex items-center gap-3">
+                  <div className="w-1.5 h-1.5 rounded-full bg-purple-500 shadow-[0_0_8px_rgba(168,85,247,0.8)]"></div> 
+                  Document intelligence systems
+                </li>
+                <li className="flex items-center gap-3">
+                  <div className="w-1.5 h-1.5 rounded-full bg-pink-500 shadow-[0_0_8px_rgba(236,72,153,0.8)]"></div> 
+                  LLM-powered automation
+                </li>
+                <li className="flex items-center gap-3">
+                  <div className="w-1.5 h-1.5 rounded-full bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.8)]"></div> 
+                  AI-assisted analytics
+                </li>
+              </ul>
+            </div>
+          </div>
         </motion.div>
 
         <div className="max-w-3xl mx-auto relative">
